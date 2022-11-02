@@ -1,7 +1,7 @@
 import boto3 
 
 def upload_to_s3(local_file, bucket, s3_file):
-    """Uploading a local file into an s3 bucket using specified credentials."""
+    """Uploading a local file into an s3 bucket using specified credentials and upload_file method"""
     ACCESS_KEY = "XXXXXXXXXXXXXXXXX"
     SECRET_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     s3 = boto3.client('s3', aws_access_key_id=ACCESS_KEY, aws_secret_access_key=SECRET_KEY)
