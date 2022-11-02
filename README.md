@@ -1,4 +1,4 @@
-# Simple Python script for AWS S3 file upload. 
+# Simple Python script for uploading a local file to an AWS S3 bucket. 
 
 # Prerequisites
 Python AWS SDK--boto3 (pip install boto3)
